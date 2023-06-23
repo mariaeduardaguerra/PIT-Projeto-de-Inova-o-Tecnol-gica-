@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body {
+    background: linear-gradient(to right, #2D5EA7, #03040A);
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #403e40a1;
+    margin: 3em;
+    border-radius: 4em;
+}
+
+#perfil {
+    margin: auto;
+    width: 30em;
+}
+
+h1, p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    padding: 1em;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 3em;
+    width: 80%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+}
+
+input:focus {
+    outline: none;
+    color: white;
+}
+
+#toggle-button{
+    position: absolute;
+    top: 63em;
+    left: 63em;
+    background: transparent;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.white-text {
+    color: white;
+}
+
+#botao {
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 3em;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    width: 13em;
+    cursor: pointer;
+    text-decoration: none;
+}
